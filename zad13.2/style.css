@@ -1,0 +1,35 @@
+body{
+  background: red;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  from {background-color: red;}
+  to {background-color: blue;}
+}
+p{
+	color:#bdbebd;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+.container{
+	background-color:#3f3f3f;
+	 animation: my 5s infinite;
+	margin: 0px 70px 20px 70px;
+	font-family: Arial;
+	font-size: 20px;
+	color:#bdbebd;
+}
+@keyframes my {
+  from {background-color: green;}
+  to {background-color: yellow;}
+}
+.content{
+	margin: 0px 70px 20px 70px;
+	text-align: justify;
+	color:#bdbebd;
+}
+img{
+	float: right;
+	padding: 20px 50px 0px 50px;
+	width: 350px;
+}
