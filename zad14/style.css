@@ -1,0 +1,21 @@
+.a{
+	color: green;
+	font-size: 12px;
+	border: solid 2px yellow;
+	font-family:Verdana,Arial,sans-serif;
+	width: 840px;
+}
+.b{
+	color: red;
+	font-size: 14px;
+	border: solid 3px orange;
+	font-family:Verdana,Arial,sans-serif;
+	width: 840px;
+}
+.c{
+	color: blue;
+	font-size: 16px;
+	border: solid 4px aqua;
+	font-family:Verdana,Arial,sans-serif;
+	width: 840px;
+}
