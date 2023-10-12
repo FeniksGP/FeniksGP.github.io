@@ -1,5 +1,5 @@
-body{
-	animation: mymove 5s infinite;
+body:hover{
+	animation: mymove 2s infinite;
 }
 @keyframes mymove {
   25%{rotate: 90deg;}
