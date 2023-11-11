@@ -1,0 +1,33 @@
+@charset "utf-8";
+body{
+	background-color: #FF6969;
+}
+.container{
+	background-color: #BB2525;
+	font-family: Calibri;
+	margin: 0% 10% 0% 10%;
+	padding: 10px 15px;
+	border-radius: 20px;
+}
+h1{
+	color: #141E46;
+	font-size: 3rem;
+	margin: 1px;
+}
+p{
+	color: #FFF5E0;
+	font-size: 1.4rem;
+	margin: 1px;
+}
+blockquote{
+	background-color: #FFD9B7;
+	padding: 10px;
+	color: #C51605;
+	font-size: 1rem;
+	font-family: Arial;
+	border-radius: 15px;
+}
+img{
+	margin: 5px;
+	float: right
+}
