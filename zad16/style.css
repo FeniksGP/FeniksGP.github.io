@@ -1,0 +1,39 @@
+@charset "utf-8";
+body{
+	background-color: #F0F0F0;
+}
+table{
+	margin: auto;
+}
+td{
+	height: 60px;
+	width: 60px;
+	
+}
+.t1{
+	background-color: #C0C0C0;
+}
+.t2{
+	background-color: #808080;
+}
+.t3{
+	background-color: #800000;
+}
+.t4{
+	background-color: #FFFFFF;
+}
+.t5{
+	background-color: #000000;
+}
+.t6{
+	background-color: #FF0000;
+}
+.t7{
+	background-color: #000080;
+}
+.t8{
+	background-color: #800080;
+}
+.t9{
+	background-color: #808000;
+}
