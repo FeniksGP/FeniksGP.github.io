@@ -3,5 +3,20 @@
 	padding: 10px;
 	border: solid 10px red;
 	font-size: 30px;
-	width: 25%;
+	width: 500px;
+}
+.borderer{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	border-radius: 100%;
+}
+.circle{
+	width: 180px;
+	height: 180px;
+	background-color: white;
+	border-radius: 100%;
+	margin: auto;
+	position: relative;
+	top: 10px;
 }
