@@ -1,0 +1,31 @@
+@charset utf-8;
+*{
+	margin: 0px;
+}
+header{
+	background-color: silver;
+	height: 50px;
+}
+nav{
+	background-color: aqua;
+	height: 600px;
+	width: 30%;
+	float: left;
+}
+main{
+	background-color: green;
+	height: 600px;
+	width: 40%;
+	float: left;
+}
+aside{
+	background-color: teal;
+	height: 600px;
+	width: 30%;
+	float: left;
+}
+footer{
+	background-color: blue;
+	clear: both;
+	height: 50px;
+}
