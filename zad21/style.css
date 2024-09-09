@@ -1,0 +1,33 @@
+@charset utf-8;
+table
+{
+font-family: Arial,sans-sherif;
+font-size: 16px;
+border-collapse: collapse;
+}
+td, th
+{
+border: 1px solid black;
+padding: 4px;
+}
+table.zielen th
+{
+background-color: green;
+color: white;
+}
+.center
+{
+	text-align: center;
+}
+.middle
+{
+	vertical-align: middle;
+}
+.right
+{
+	text-align: right;
+}
+.bottom
+{
+	vertical-align: bottom;
+}
