@@ -31,3 +31,9 @@ color: white;
 {
 	vertical-align: bottom;
 }
+table.pomarancz th
+{
+	width: 150px;
+	color: blue;
+	background-color: orange;
+}
