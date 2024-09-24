@@ -1,0 +1,11 @@
+@charset "utf-8";
+div#logo
+{
+	background-color: orange;
+	color: white;
+	font: 50px arial;
+	text-align: center;
+	text-shadow: silver 4px 4px 8px;
+	border: double silver;
+	letter-spacing: 15px;
+}
