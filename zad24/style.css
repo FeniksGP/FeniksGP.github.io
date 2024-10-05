@@ -1,0 +1,47 @@
+@charset "utf-8";
+body{
+	margin: 0px;
+	background-color: #d9ed92;
+	color: #184e77;
+	font-size: 20px;
+	cursor: grab;
+	position: relative;
+}
+header{
+	background-color: #76c893;
+	width: 80%;
+	margin: auto;
+	border-radius: 40px 40px;
+	text-align: center;
+	padding: 10px 20px 10px 20px;
+	cursor: url('sok.cur'), help;
+}
+h1{
+	font-size: 3em;
+}
+main{
+	background-color: #99d98c;
+	width: 80%;
+	min-height: 400px;
+	margin: auto;
+	border-radius: 40px 40px;
+	padding: 30px 25px 20px 25px;
+	font-size: 1.2em;
+	cursor: no-drop;
+}
+img{
+	float: right;
+	padding: 10px;
+	min-width: 300px;
+	max-width: 30%;
+	cursor: wait;
+}
+#dot{
+	position: absolute;
+	background-color: transparent;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+}	
