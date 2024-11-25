@@ -40,7 +40,6 @@ ul.ropucha{
 	margin: 35px 9% 0px 0px;
 	padding: 2px 7% 2px 7%;
 	float: left;
-	text-decoration: none;
 }
 .przycisk:hover{
 	background-color: gray;
@@ -48,6 +47,7 @@ ul.ropucha{
 }
 a{
 	color: orange;
+	text-decoration: none;
 }
 a:visited{
 	color: DarkGreen;
