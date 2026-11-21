@@ -1,3 +1,4 @@
+let positions = [8][8];//global board representation of pieces
 import { Square } from './Square.js';
 
 export class Board {

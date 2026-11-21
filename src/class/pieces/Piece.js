@@ -1,8 +1,8 @@
-class Piece {
+class Piece {//class of general piece
     constructor(x, y) {
         this.x = x;
         this.y = y;
     }
-    showMoves();
-    move();
+    showMoves();//show possible moves of piece
+    move();//move a piece
 }
