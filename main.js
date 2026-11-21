@@ -4,6 +4,13 @@ import { Pawn } from './src/class/pieces/Pawn.js';
 let selectedPiece = null;
 let selectedSquare = null;
 
+let myBoard = new Board('board');
+
+let whitePawn = new Pawn(0, 6, 'white', 'src/class/img/wp.png');
+
+
+let targetSquare = myBoard.squares[6][0];
+targetSquare.element.innerHTML = whitePawn.render();
 
 myBoard.squares.forEach((row, rowIndex) => {
     row.forEach((square, colIndex) => {
@@ -46,11 +53,5 @@ myBoard.squares.forEach((row, rowIndex) => {
     });
 });
 
-let myBoard = new Board('board');
 
-let whitePawn = new Pawn(0, 6, 'white', 'src/class/img/wp.png');
-
-
-let targetSquare = myBoard.squares[6][0];
-targetSquare.element.innerHTML = whitePawn.render();
 
