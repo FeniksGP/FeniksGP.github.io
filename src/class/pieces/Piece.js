@@ -3,6 +3,10 @@ class Piece {//class of general piece
         this.x = x;
         this.y = y;
     }
-    showMoves();//show possible moves of piece
-    move();//move a piece
+    showMoves()
+    {
+    }//show possible moves of piece
+    move()
+    {
+    }//move a piece
 }
