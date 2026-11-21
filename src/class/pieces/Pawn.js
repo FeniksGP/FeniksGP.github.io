@@ -12,4 +12,8 @@ export class Pawn extends Piece{
         let moves = [];
     }
     move(){}
+    
+    render() {
+        return `<img src="${this.image}" style="width: 80%; height: 80%; object-fit: contain;">`;
+    }
 }
