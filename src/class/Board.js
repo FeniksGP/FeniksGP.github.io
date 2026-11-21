@@ -1,4 +1,4 @@
-let positions = [8][8];//global board representation of pieces
+// ????? let positions = [8][8];//global board representation of pieces
 import { Square } from './Square.js';
 import { Pawn } from './pieces/Pawn.js';
 
@@ -28,9 +28,12 @@ export class Board {
             }
         }
         //this below is for test
+        /* HEEE???
         for(let i = 0; i < 8; ++i)
         {
             const pawnB = new Pawn(i, 0, this.container, "black", "bp.png");
         }
+    }
+ */
     }
 }
