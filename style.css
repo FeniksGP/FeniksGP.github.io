@@ -1,5 +1,5 @@
-*{
-    background-color: bisque;
+body{
+    background-color: rgb(125, 253, 108);
 }
 #board {
     display: grid;
@@ -20,9 +20,9 @@
 }
 
 .white {
-    background-color: #f0d9b5;
+    background-color: #ffffff;
 }
 
 .black {
-    background-color: #b58863;
+    background-color: #000000;
 }
