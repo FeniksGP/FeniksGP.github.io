@@ -3,4 +3,6 @@ class Piece {
         this.x = x;
         this.y = y;
     }
+    showMoves();
+    move();
 }
