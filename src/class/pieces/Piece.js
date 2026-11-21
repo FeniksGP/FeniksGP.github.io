@@ -1,4 +1,4 @@
-export class Piece {//class of general piece
+/*export class Piece {//class of general piece
     constructor(x, y, anchor) {
         this.x = x;
         this.y = y;
@@ -14,4 +14,13 @@ export class Piece {//class of general piece
     }
     showMoves() {}//show possible moves of piece
     move(){}//move a piece
+} */
+export class Piece {
+    constructor(x, y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    showMoves() {}
+    move() {}
 }
