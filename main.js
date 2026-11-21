@@ -1,9 +1,10 @@
 import { Board } from './src/class/Board.js';
-// Zmienne do śledzenia zaznaczenia
+import { Pawn } from './src/class/pieces/Pawn.js';
+
 let selectedPiece = null;
 let selectedSquare = null;
 
-// Przechodzimy po wszystkich polach planszy
+
 myBoard.squares.forEach((row, rowIndex) => {
     row.forEach((square, colIndex) => {
         
