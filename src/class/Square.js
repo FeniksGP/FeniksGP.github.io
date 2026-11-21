@@ -11,7 +11,7 @@ export class Square {
         this.element.dataset.row = row;
         this.element.dataset.col = col;
     }
-    setPiece(piece) {
+   /* setPiece(piece) {
         this.piece = piece;
         if (piece) {
             this.element.textContent = piece.symbol;
@@ -23,4 +23,5 @@ export class Square {
             delete this.element.dataset.pieceColor;
         }
     }
+        */
 }
