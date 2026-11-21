@@ -10,6 +10,7 @@ let whitePawn = new Pawn(0, 6, 'white', 'src/class/img/wp.png');
 
 
 let targetSquare = myBoard.squares[6][0];
+targetSquare.piece = whitePawn;
 targetSquare.element.innerHTML = whitePawn.render();
 
 myBoard.squares.forEach((row, rowIndex) => {
