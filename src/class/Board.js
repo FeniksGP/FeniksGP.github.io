@@ -1,8 +1,7 @@
 // ????? let positions = [8][8];//global board representation of pieces
 import { Square } from './Square.js';
 import { Pawn } from './pieces/Pawn.js';
-
-export export class Board {
+ class Board {
     constructor(containerId) {
         
         this.container = document.getElementById(containerId);

@@ -2,9 +2,11 @@ import { Board } from './src/class/Board.js';
 import { Pawn } from './src/class/pieces/Pawn.js';
 import { Rook } from './src/class/pieces/Rook.js';
 import { Knight } from './src/class/pieces/Knight.js';
-import { Bishop } from './src/class/pieces/Bishop.js';
+
 import { Queen } from './src/class/pieces/Queen.js';
 import { King } from './src/class/pieces/King.js';
+
+import { Bishop } from './src/class/pieces/Bishop.js';
 
 let selectedPiece = null;
 let selectedSquare = null;
