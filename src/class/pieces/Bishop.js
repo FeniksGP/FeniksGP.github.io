@@ -1,4 +1,4 @@
-class Bishop extends Piece{
+export class Bishop extends Piece{
     constructor(x, y, color, image) {
         super(x, y);
         this.color = color;

@@ -1,4 +1,4 @@
-class King extends Piece{
+export class King extends Piece{
     constructor(x, y, color, image) {
         super(x, y);
         this.color = color;

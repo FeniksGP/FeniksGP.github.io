@@ -2,7 +2,7 @@
 import { Square } from './Square.js';
 import { Pawn } from './pieces/Pawn.js';
 
-export class Board {
+export export class Board {
     constructor(containerId) {
         
         this.container = document.getElementById(containerId);
